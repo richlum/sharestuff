@@ -1,0 +1,2 @@
+select count(*) from item i group by rollup (i.available)
+/

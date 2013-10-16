@@ -1,0 +1,6 @@
+<?php
+$GLOBALS['SelectedUser']=$_POST["selectUser"];
+
+include ('showPersons.php');
+?>
+ 

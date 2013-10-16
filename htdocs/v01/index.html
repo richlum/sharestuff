@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+   "http://www.w3.org/TR/html4/frameset.dtd">
+<HTML>
+<HEAD>
+<TITLE>A simple frameset document</TITLE>
+</HEAD>
+<FRAMESET cols="30%, 70%">
+  <FRAMESET rows="100, 200">
+      <FRAME name="topLeft" src="showPersons.php">
+      <FRAME name="left" src="list.php">
+  </FRAMESET>
+  <FRAME name="main" src="sample_page.html">
+  <NOFRAMES>
+      <P>This frameset document contains:
+      <UL>
+         <LI><A href="showPersons.php">Set User View</A>
+         <LI><IMG src="apache_pb22_ani.gif" alt="A neat image">
+         <LI><A href="sample_page.html">Some other neat contents</A>
+      </UL>
+  </NOFRAMES>
+</FRAMESET>
+</HTML>
+

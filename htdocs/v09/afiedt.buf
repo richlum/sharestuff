@@ -1,0 +1,2 @@
+alter table person modify email constraint deletePerson on delete cascade
+/

@@ -1,0 +1,2 @@
+select * from person where password > (select phone from person where name like '%ich%')
+/

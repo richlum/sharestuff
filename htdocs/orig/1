@@ -1,0 +1,11 @@
+<html>
+<body>
+
+<?php
+
+echo "<br/> $GLOBALS['SelectedUser']  <br/>"
+?>
+
+</body>
+</html>
+
